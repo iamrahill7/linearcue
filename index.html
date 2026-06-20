@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinearCue — Your Invisible AI Copilot</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0a0a0a; color: #fff; }
+    
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 60px; border-bottom: 1px solid #1f1f1f; }
+    .nav-logo { font-size: 18px; font-weight: 700; letter-spacing: -0.5px; }
+    .nav-btn { background: #fff; color: #000; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500; }
+
+    .hero { text-align: center; padding: 100px 20px 60px; }
+    .hero-badge { display: inline-block; background: #1a1a1a; border: 1px solid #333; color: #888; padding: 6px 14px; border-radius: 20px; font-size: 12px; margin-bottom: 24px; }
+    .hero h1 { font-size: 56px; font-weight: 700; letter-spacing: -2px; line-height: 1.1; margin-bottom: 20px; }
+    .hero h1 span { color: #888; }
+    .hero p { font-size: 18px; color: #666; max-width: 500px; margin: 0 auto 40px; line-height: 1.6; }
+    .hero-btns { display: flex; gap: 12px; justify-content: center; }
+    .btn-primary { background: #fff; color: #000; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; }
+    .btn-secondary { background: transparent; color: #fff; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; border: 1px solid #333; }
+
+    .features { padding: 80px 60px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 1100px; margin: 0 auto; }
+    .feature { background: #111; border: 1px solid #1f1f1f; border-radius: 12px; padding: 28px; }
+    .feature-icon { font-size: 28px; margin-bottom: 16px; }
+    .feature h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+    .feature p { font-size: 14px; color: #666; line-height: 1.6; }
+
+    .pricing { text-align: center; padding: 80px 20px; }
+    .pricing h2 { font-size: 36px; font-weight: 700; margin-bottom: 12px; letter-spacing: -1px; }
+    .pricing p { color: #666; margin-bottom: 48px; }
+    .plans { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+    .plan { background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 36px; width: 280px; text-align: left; }
+    .plan.popular { border-color: #fff; }
+    .plan-badge { background: #fff; color: #000; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; display: inline-block; margin-bottom: 16px; }
+    .plan h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .plan-price { font-size: 36px; font-weight: 700; margin-bottom: 4px; }
+    .plan-price span { font-size: 16px; color: #666; font-weight: 400; }
+    .plan-features { list-style: none; margin: 20px 0 28px; }
+    .plan-features li { font-size: 14px; color: #888; padding: 6px 0; border-bottom: 1px solid #1a1a1a; }
+    .plan-features li::before { content: "✓ "; color: #fff; }
+    .plan-btn { display: block; text-align: center; padding: 12px; border-radius: 8px; font-size: 14px; font-weight: 600; text-decoration: none; background: #fff; color: #000; }
+    .plan.popular .plan-btn { background: #fff; }
+
+    .download { text-align: center; padding: 80px 20px; border-top: 1px solid #1a1a1a; }
+    .download h2 { font-size: 36px; font-weight: 700; margin-bottom: 12px; letter-spacing: -1px; }
+    .download p { color: #666; margin-bottom: 32px; }
+    .download-btn { display: inline-block; background: #fff; color: #000; padding: 14px 36px; border-radius: 8px; font-size: 16px; font-weight: 600; text-decoration: none; }
+    .download-note { font-size: 12px; color: #444; margin-top: 12px; }
+
+    footer { text-align: center; padding: 40px; border-top: 1px solid #1a1a1a; color: #444; font-size: 13px; }
+
+    @media (max-width: 768px) {
+      nav { padding: 20px; }
+      .hero h1 { font-size: 36px; }
+      .features { grid-template-columns: 1fr; padding: 40px 20px; }
+      .plans { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">LinearCue</div>
+    <a href="https://github.com/iamrahill7/linearcue/releases/download/v0.1.6/LinearCue_0.1.0_aarch64.dmg" class="nav-btn">Download Free</a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-badge">🇮🇳 Built for Indian Sales & Interview Professionals</div>
+    <h1>Your invisible AI<br/><span>copilot for every call</span></h1>
+    <p>LinearCue sits invisibly on your screen during sales calls and interviews. Real time AI suggestions. Client never sees it.</p>
+    <div class="hero-btns">
+      <a href="https://github.com/iamrahill7/linearcue/releases/download/v0.1.6/LinearCue_0.1.0_aarch64.dmg" class="btn-primary">Download for Mac</a>
+      <a href="#pricing" class="btn-secondary">See pricing</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <div class="feature-icon">👁</div>
+      <h3>Reads your screen</h3>
+      <p>LinearCue sees what's on your screen — CRM, documents, browser — and uses it as context for every answer.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🎤</div>
+      <h3>Listens to you</h3>
+      <p>Speak your question instead of typing. LinearCue transcribes and answers in real time during live calls.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🫥</div>
+      <h3>Invisible to clients</h3>
+      <p>LinearCue never appears on screen shares. Works invisibly on Google Meet, Zoom, and Microsoft Teams.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">💼</div>
+      <h3>Sales copilot</h3>
+      <p>Get exact scripts, objection handling, and key talking points in real time during your sales calls.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🎯</div>
+      <h3>Interview coach</h3>
+      <p>Structured answers, STAR format responses, and what to avoid — all during your live interview.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">⌨️</div>
+      <h3>Smart AI routing</h3>
+      <p>Automatically picks the best AI model for your question — coding, sales, interview, or general.</p>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <h2>Simple pricing</h2>
+    <p>Start free. Upgrade when you're ready.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>Student</h3>
+        <div class="plan-price">₹199<span>/month</span></div>
+        <ul class="plan-features">
+          <li>Interview coaching mode</li>
+          <li>Screen reading</li>
+          <li>Voice input</li>
+          <li>50 queries/day</li>
+          <li>Mac only</li>
+        </ul>
+        <a href="https://wa.me/91XXXXXXXXXX?text=Hi, I want to buy LinearCue Student plan" class="plan-btn">Get Started</a>
+      </div>
+      <div class="plan popular">
+        <div class="plan-badge">MOST POPULAR</div>
+        <h3>Pro</h3>
+        <div class="plan-price">₹999<span>/month</span></div>
+        <ul class="plan-features">
+          <li>Everything in Student</li>
+          <li>Sales copilot mode</li>
+          <li>Unlimited queries</li>
+          <li>Real time objection handling</li>
+          <li>Priority WhatsApp support</li>
+        </ul>
+        <a href="https://wa.me/91XXXXXXXXXX?text=Hi, I want to buy LinearCue Pro plan" class="plan-btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="download">
+    <h2>Download LinearCue</h2>
+    <p>Free to download. Works on macOS. No signup required.</p>
+    <a href="https://github.com/iamrahill7/linearcue/releases/download/v0.1.6/LinearCue_0.1.0_aarch64.dmg" class="download-btn">⬇ Download for Mac (3.4 MB)</a>
+    <p class="download-note">macOS 10.13 or later required • Apple Silicon & Intel supported</p>
+  </section>
+
+  <footer>
+    <p>© 2026 LinearCue. Built in India 🇮🇳</p>
+  </footer>
+
+</body>
+</html>
