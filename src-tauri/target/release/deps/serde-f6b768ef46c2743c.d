@@ -1,0 +1,14 @@
+/Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/deps/serde-f6b768ef46c2743c.d: /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/build/serde-7d75a0073ad100f0/out/private.rs
+
+/Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/deps/libserde-f6b768ef46c2743c.rlib: /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/build/serde-7d75a0073ad100f0/out/private.rs
+
+/Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/deps/libserde-f6b768ef46c2743c.rmeta: /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/build/serde-7d75a0073ad100f0/out/private.rs
+
+/Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/build/serde-7d75a0073ad100f0/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/build/serde-7d75a0073ad100f0/out

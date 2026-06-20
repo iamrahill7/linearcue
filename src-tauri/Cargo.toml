@@ -1,0 +1,26 @@
+[package]
+name = "linearcue"
+version = "0.1.0"
+description = "LinearCue Desktop AI Copilot"
+authors = ["you"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.5", features = [ "protocol-all", "shell-all",
+  "global-shortcut-all",
+  "http-all",
+  "window-all"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+base64 = "0.21"
+tauri-plugin-deep-link = "0.1"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.5"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]

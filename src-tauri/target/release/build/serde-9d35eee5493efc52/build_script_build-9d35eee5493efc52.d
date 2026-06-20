@@ -1,0 +1,5 @@
+/Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/build/serde-9d35eee5493efc52/build_script_build-9d35eee5493efc52.d: /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/build.rs
+
+/Users/imrahill7/Desktop/LinearCue/src-tauri/target/release/build/serde-9d35eee5493efc52/build_script_build-9d35eee5493efc52: /Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/build.rs
+
+/Users/imrahill7/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/build.rs:
